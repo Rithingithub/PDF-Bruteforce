@@ -16,7 +16,7 @@ a = input(print("Paste the pdf file directory : "))
 for password in tqdm(passwords, "Decrypting PDF"):
     try:
         with pikepdf.open(a, password=password) as pdf:
-            print("\n[+] Password found  : ", password)
+            print(" Password found  : ", password)
             break
     except pikepdf._qpdf.PasswordError as e:
 
