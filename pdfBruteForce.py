@@ -13,7 +13,7 @@ passwords = [line.strip() for line in open("wordlist.txt")]
 
 a = input(print("Paste the pdf file directory : "))
 
-for password in tqdm(passwords, "Decrypting PDF"):
+for password in tqdm(passwords, "Bruteforcing "):
     try:
         with pikepdf.open(a, password=password) as pdf:
             print(" Password found  : ", password)
