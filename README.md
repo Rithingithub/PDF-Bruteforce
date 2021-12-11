@@ -8,3 +8,13 @@ You can easily crack the pdf file by using the tool.
 A dictionary attack is a method of breaking into a password-protected computer, network or other IT resource by systematically entering every word in a dictionary as a password. A dictionary attack can also be used in an attempt to find the key necessary to decrypt an encrypted message or document.
 
 Dictionary attacks work because many computer users and businesses insist on using ordinary words as passwords. These attacks are usually unsuccessful against systems using multiple-word passwords and are also often unsuccessful against passwords made up of uppercase and lowercase letters and numbers in random combinations.
+## How to prevent Bruteforce attack?
+Use strong and long passwords. Try to include combination of lower and upper case alphabets , numerics and symbols. Always contains more than 10 space.
+* Limit failed login attempts
+* Make the root user inaccessible via SSH by editing the sshd_config file
+* Don’t use a default port, edit the port line in your sshd_configfile
+* Use Captcha
+* Limit logins to a specified IP address or range
+* Two factor authentication
+* Unique login URLs
+* Monitor server logs
